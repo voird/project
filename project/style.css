@@ -1,0 +1,25 @@
+.header{
+    display: inline-flex;
+    background-color: black;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    display: inline;
+  }
+  .container {
+    flex: 1 1 25%;
+    width: 500px;
+    height: 300px;
+    background: rgba(255, 140, 0, 0.7);
+    display: flex;
+    margin: 30px 60px;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+  }
