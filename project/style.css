@@ -23,3 +23,16 @@
       width: 750px;
       min-height: 43px;
   }
+  .navbar-logo{
+      margin: 0;
+  }
+  .navbar-toggle{
+      display: none;
+  }
+  
+  .navbar-collapse.collapse{
+      display: block;
+      height: auto;
+      padding-bottom: 0;
+      overflow: visible;
+  }
